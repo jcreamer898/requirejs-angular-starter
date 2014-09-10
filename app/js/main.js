@@ -1,7 +1,7 @@
 require.config({
     paths: {
-        angular: "/js/vendor/angular/angular",
-        ngRoute: "/js/vendor/angular-route/angular-route"
+        angular: "vendor/angular/angular",
+        ngRoute: "vendor/angular-route/angular-route"
     },
     shim: {
         angular: {

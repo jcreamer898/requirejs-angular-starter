@@ -1,0 +1,1 @@
+define(["require","angular"],function(e){var t=e("angular");return t.module("my.starter",[])});

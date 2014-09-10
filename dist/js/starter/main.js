@@ -1,0 +1,1 @@
+define(["require","./starterCtrl"],function(e){e("./starterCtrl")});
