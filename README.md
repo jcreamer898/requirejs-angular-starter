@@ -19,3 +19,5 @@ r.js -o app.build.js
 ```
 
 This will create a `/dist` folder with the built app.
+
+**Note: the dist folder is included in this repository, but you may want to add `dist` to your `.gitignore` to keep it out of git**
