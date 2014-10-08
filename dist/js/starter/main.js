@@ -1,1 +1,1 @@
-define(["require","./starterCtrl"],function(e){e("./starterCtrl")});
+define(["require","angular","./starterCtrl"],function(e){var t=e("angular"),n="my.starter",r;return r=t.module("my.starter",[]).controller("StarterCtrl",e("./starterCtrl")),{name:n,ngModule:r}});

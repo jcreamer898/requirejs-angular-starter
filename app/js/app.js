@@ -1,11 +1,12 @@
 define(function(require) {
     var angular = require("angular");
 
-    require("ngRoute")
-    require("starter");
+    require("ngRoute");
+
+    var starter = require("starter");
 
     angular.module("app", [
         "ngRoute",
-        "my.starter"
-        ]);
+        starter.name
+    ]);
 });

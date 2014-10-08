@@ -1,1 +1,1 @@
-define(["require","angular","ngRoute","starter"],function(e){var t=e("angular");e("ngRoute"),e("starter"),t.module("app",["ngRoute","my.starter"])});
+define(["require","angular","ngRoute","starter"],function(e){var t=e("angular");e("ngRoute");var n=e("starter");t.module("app",["ngRoute",n.name])});

@@ -1,6 +1,4 @@
 define(function(require) {
-    var starter = require("./module");
-
     function StarterCtrl ($log) {
         this.message = "Starter module!";
 
@@ -9,5 +7,5 @@ define(function(require) {
 
     StarterCtrl.$inject = ["$log"];
 
-    return starter.controller("StarterCtrl", StarterCtrl);
+    return StarterCtrl;
 });

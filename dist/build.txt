@@ -7,7 +7,6 @@ js/main.js
 ----------------
 js/vendor/angular/angular.js
 js/vendor/angular-route/angular-route.js
-js/starter/module.js
 js/starter/starterCtrl.js
 js/starter/main.js
 js/app.js
