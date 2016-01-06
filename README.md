@@ -50,7 +50,7 @@ In `app.js` you require the package, and then utilize the `package.name`.
 To create a build of your app, first install node, and then run...
 
 ```bash
-npm install -g require.js
+npm install -g requirejs
 ```
 
 Then run,
